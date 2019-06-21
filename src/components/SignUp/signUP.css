@@ -1,0 +1,138 @@
+/* Colors */
+/*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7EB09B
+light green: #A3C4BC
+*/
+
+.background {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+  }
+  
+  .form-background {
+    width: 400px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+    margin: 300px 0 0;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 86px 0px 0px;
+  }
+  
+  h1 {
+    text-align: center;
+    width: 100%;
+    color: #111;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      margin: 0 0 -290px;
+  }
+  
+  label {
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-weight: lighter;
+  }
+  
+  input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+  }
+  
+  input.error {
+    border: 1px solid red;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+  }
+  
+  .firstNameee {
+    margin-right: 1%;
+  }
+  
+  .lastNameee {
+    margin-left: 1%;
+  }
+  
+  .firstNameee,
+  .lastNameee,
+  .emailee,
+  .mobileee,
+  .passwordee {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .firstNameee,
+  .lastNameee {
+    width: 49%;
+  }
+  
+  .emailee,
+  .mobileee,
+  .passwordee {
+    width: 100%;
+  }
+  
+  .createAccountee {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .createAccountee button {
+    background-color: #0055c4;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 0em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  
+  .createAccountee button:hover {
+    color:#2c0445;
+    background-color: #fff;
+    border: 2px solid #0055c4;
+  }
+  
+  .createAccountee small {
+    color: #999;
+    font-weight: lighter;
+  }
+  

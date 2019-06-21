@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.DashBoardMainDiv .refresh-whole{
+  font-size: 1rem;
+  display: inline-block;
+  left: auto; right: 10px;
+  margin-left: 88%;
+}
+.popup{
+  left: -128px !important;
+}
+.popup-content {
+  position: relative;
+  background: rgb(255, 255, 255);
+  width: 165% !important;
+  border: 1px solid rgb(187, 187, 187);
+  padding: 5px;
+  max-width: 600px;
+  /* margin-left: -175% !important; */
+  margin: 180px -300px 130px !important;
+  height: max-content !important;
+  color: black !important;
+}
+.close {
+  margin-right: -95% !important;
+}
+
+.content{
+   color: black !important;
+}
+
+.popup-header{
+  margin-right: 73% !important;
+}
+.newFontClass{
+  font-size: small !important;
+}
+.MuiIconButton-colorInherit-110{
+  margin-left: 584px;
+}
+
+.supportButton a{
+  color : #ffffff;
+  text-decoration: none;
+  margin: 0 17px 0;
+}
+
+.hideUnderLine a{
+  text-decoration: none;
+}
+
+.MuiSelect-root-190 {
+  width: 200px !important;
+}
+.MuiFab-root-228 {
+  margin-left: 2% !important;
+}
+
+
+
+.tool-bar{
+  background-color: #ffffff !important;
+}
+
+
+.tool-bar button{
+  background-color: #000874;
+  color: white;
+}
+
+.tool-bar button:hover{ 
+  background-color:white;
+  color:blue;
+  border-color: #000655;  
+}
+
+.button-bar{
+  background-color: #000655;
+  margin-left: 100px;
+}
